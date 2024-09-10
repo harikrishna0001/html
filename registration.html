@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-          <H1> STUDENT REGISTRATION</H1> 
-        </title>
+        <h1><title>
+           STUDENT REGISTRATION 
+        </title></h1>
     </head>
-    <body><center>
+    <body bgcolor="#E65C3E"><center>
     <form><table>
         <tr>
             <td>
@@ -15,6 +15,7 @@
                 <input type="text" placeholder="first name" maxlength="50">
             </td>
         </tr>
+      
         <tr>
             <td> 
                 Second Name 
@@ -27,7 +28,7 @@
                 <td> 
                     Email Id 
                 </td>
-                <td>
+                <td></h1>
                     <input type="text" placeholder="email" maxlength="50">
                 </td>
             </tr>
@@ -50,26 +51,24 @@
                     </td>
                     </tr>
         <tr>
+            <td>Date of Birth</td>
             <td>
                 <input type="date" placeholder="date">
             </td>
         </tr>
       
         <tr>
-            <td>
-                Address
-            </td>
-            <td>
-                <input type="text" placeholder="permenant address" maxlength="200">
-            </td>
+            <td> address</td>
+            <td><textarea name="address" id="" cols="30" rows="10"></textarea></td>
         
         </tr>
             <tr>
                 <td> 
                      City
-                    </td>
-                    <input type="text" placeholder="city" maxlength="50">
                 </td>
+                    <td>
+                    <input type="text" placeholder="city" maxlength="50">
+                 </td>
             </tr>
                 <tr>
                     <td>
@@ -92,17 +91,62 @@
                         Country
                     </td>
                     <td>
-                        <option selected disabled>select country </option>
+                       <select>
+                        <option selected disabled> select country </option>
                         <option value="india">india</option>
                         <option value="india">brazil</option>
                         <option value="india">argentina</option>
                         <option value="india">germany</option>
+                      </select>
+                   </td>
+                </tr>
+                <tr>
+                    <td>
+                        Hobbies
+                    </td>
+                    <td>
+                        <input type="checkbox" value="Drawing" name="hobbies" check>drawing
+                        <input type="checkbox" vale="Singing" name="hobbies" check>singing
+                        <input type="checkbox" value="Sketching" name="hobbies" check>Sketching
+                        <input type="checkbox" value="others" name="hobbies" check>others
+                        <input type="text" placeholder="etc" maxlength="50">
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <td>
+                        Qualification
+                    </td>
+                    <td>
+                        <input type="checkbox" value="High School(10th)" name="Qualification" check>drawing<br>
+                        <input type="checkbox" vale="Highest School(12th)" name="Qualification" check>Highest School(12th)<br>
+                        <input type="checkbox" value="Graduation(bachelors)" name="Qualification" check>Graduation(bachelors)<br>
+                        <input type="checkbox" value="Post Graduation(bachelors)" name="Qualification" check>Post Graduation(bachelors)<br>
+                        <input type="checkbox" value="Phd" name="Qualification" check>Phd<br>
                     </td>
                 </tr>
                 <tr>
-                    Hobbies
+                    <td>
+                        Courses Applied For
+                    </td>
+                    <td>
+                        <input type="radio" value="BCA(Bachelor of Computer applications)" name="Courses Applied For" check>BCA(Bachelor of Computer applications)<br>
+                        <input type="radio" vale="B.Com(Bachelor of Commerce)" name="Courses Applied For" check>B.Com(Bachelor of Commerce)<br>
+                        <input type="radio" value="B.Sc(Bachelor of Science)" name="Courses Applied For" check>B.Sc(Bachelor of Science)<br>
+                        <input type="radio" value="BA(Bachelor of Arts)" name="Courses Applied For" check>BA(Bachelor of Arts)<br>
+                        <input type="radio" value="MCA(Master of Computer Application)" name="Courses Applied For" check>MCA(Master of Computer Application)<br>
+                        <input type="radio" value="M.Com(Master of Commerce)" name="Courses Applied For" check>M.Com(Master of Commerce)<br>
+                        <input type="radio" value="M.Sc(Master of Science)" name="Courses Applied For" check>M.Sc(Master of Science)<br>
+                        <input type="radio" value="MA(Master of Arts)" name="Courses Applied For" check>MA(Master of Arts)
+                    </td>
                 </tr>
-
+                <tr>
+                    <td>
+                        <td>
+                     <input type="submit">
+                     <input type="reset">
+                    </td>
+                </tr>
     </table> 
     </form> 
 
